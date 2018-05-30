@@ -1,0 +1,186 @@
+/* Styles */
+
+body {
+  background-color: black;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  text-align: center;
+  font-size: 22px;
+  display: block;
+}
+
+a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: bold;
+  background-color: black;
+}
+
+
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+}
+
+div {
+  display: block;
+}
+
+
+/* Header */
+
+header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid white;
+  color: white;
+  font-family: Helvetica, serif;
+  font-size: 22px;
+}
+
+.logo {
+  display: flex;
+  padding-left: 10px;
+  flex-grow: 1;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+  }
+
+nav {
+  color: seashell;
+  flex-grow: 1;
+  text-align: right;
+}
+
+nav span {
+    display: inline-block;
+    padding: 10px 10px;
+    color: white;
+    padding-right: 15px;
+    font-size: 22px;
+  }
+
+
+  /* Main */
+
+.main {
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+    padding-top: 69;
+  }
+
+#mission {
+  display: flex;
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 70px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+
+/* Tea of the month */
+
+.teamonth {
+  width: 1000px;
+  height: 700px;
+  margin-top: 70px;
+  margin: auto;
+}
+
+.tea {
+  padding 5px;
+}
+
+.tea img {
+  height: 200px;
+  margin: 10px;
+}
+
+.tea span {
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  display: block;
+}
+
+
+/* Locations */
+
+.locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500;
+  margin-top: 70px;
+}
+
+.flex-container.locations {
+  padding-top: 5px;
+}
+
+.locations .flex-container {
+  margin: auto;
+  width: 1100px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px 10px;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+}
+
+
+/* Contact */
+
+#contact {
+  height: 200px;
+}
+
+
+/* Footer */
+
+#footer {
+  text-align: left;
+  margin-left: 20px;
+}
